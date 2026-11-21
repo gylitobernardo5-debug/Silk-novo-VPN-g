@@ -1,0 +1,6 @@
+{
+  "name": "G-VPN",
+  "description": "Fast, lightweight native Android VPN client by DEV GYLITO supporting SSH Tunnel, VLESS, VMess, Shadowsocks, SOCKS5, DNS AdBlocker, diagnostics, and per-app filtering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

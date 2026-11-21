@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">G-VPN</string>
+    <string name="dev_signature">DEV GYLITO</string>
+
+    <!-- Bottom navigation & main actions -->
+    <string name="nav_home">VPN</string>
+    <string name="nav_editor">Editor</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_test">Test</string>
+    <string name="nav_lists">Lists</string>
+
+    <!-- VPN States -->
+    <string name="state_disconnected">Disconnected</string>
+    <string name="state_connecting">Connecting…</string>
+    <string name="state_connected">Connected</string>
+    <string name="state_error">Error</string>
+
+    <!-- Home Screen -->
+    <string name="home_tap_to_connect">Tap to connect</string>
+    <string name="home_tap_to_disconnect">Tap to disconnect</string>
+    <string name="home_no_profile_selected">No profile selected</string>
+    <string name="home_select_or_create_profile">Select or create a profile in Editor or Lists</string>
+    <string name="home_active_profile">Active profile</string>
+    <string name="home_server_address">Server</string>
+    <string name="home_protocol">Protocol</string>
+    <string name="home_duration">Duration</string>
+    <string name="home_adblock_badge">AdBlock ON</string>
+    <string name="home_adblock_off_badge">AdBlock OFF</string>
+    <string name="home_paste_import">Paste / Import</string>
+    <string name="home_change_profile">Switch</string>
+    <string name="vpn_permission_denied">VPN permission is required to establish the tunnel.</string>
+    <string name="vpn_external_conflict">Another VPN is currently active on the device. Disconnect it before starting G-VPN or its local DNS AdBlocker.</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">G-VPN Tunnel</string>
+    <string name="notif_channel_desc">Displays active VPN connection status and traffic metrics</string>
+    <string name="notif_connected_title">G-VPN Connected</string>
+    <string name="notif_connecting_title">G-VPN Connecting…</string>
+    <string name="notif_disconnect_action">Disconnect</string>
+
+    <!-- Editor -->
+    <string name="editor_title">Profile Editor</string>
+    <string name="editor_new_profile">New profile</string>
+    <string name="editor_edit_profile">Edit profile</string>
+    <string name="editor_paste_link">Paste link</string>
+    <string name="editor_import_file">Import file</string>
+    <string name="editor_save">Save</string>
+    <string name="editor_save_and_connect">Save &amp; Connect</string>
+    <string name="editor_test_profile">Test</string>
+    <string name="editor_duplicate">Duplicate</string>
+    <string name="editor_delete">Delete</string>
+    <string name="editor_export">Export</string>
+    <string name="editor_select_active">Use profile</string>
+    <string name="editor_profile_name">Profile name</string>
+    <string name="editor_server_host">Server IP or hostname</string>
+    <string name="editor_port">Port</string>
+    <string name="editor_username">Username</string>
+    <string name="editor_password">Password</string>
+    <string name="editor_uuid">UUID</string>
+    <string name="editor_ssh_auth_method">Auth method</string>
+    <string name="editor_ssh_key">SSH private key (PEM / OpenSSH)</string>
+    <string name="editor_ssh_passphrase">Key passphrase (optional)</string>
+    <string name="editor_upstream_proxy">Upstream proxy (optional)</string>
+    <string name="editor_proxy_type">Proxy type</string>
+    <string name="editor_proxy_host">Proxy host</string>
+    <string name="editor_proxy_port">Proxy port</string>
+    <string name="editor_tls_enabled">Enable TLS</string>
+    <string name="editor_sni">Server Name (SNI)</string>
+    <string name="editor_allow_insecure">Allow insecure certificates</string>
+    <string name="editor_transport">Transport</string>
+    <string name="editor_ws_path">WebSocket / HTTP path</string>
+    <string name="editor_ws_host">WebSocket Host header</string>
+    <string name="editor_alpn">ALPN (e.g. h2,http/1.1)</string>
+    <string name="editor_ss_method">Encryption method</string>
+    <string name="editor_vmess_cipher">VMess security</string>
+    <string name="editor_vmess_alter_id">Alter ID</string>
+    <string name="editor_socks_udp">Enable UDP relay</string>
+    <string name="editor_notes">Notes</string>
+    <string name="editor_auto_saved">Changes saved locally</string>
+    <string name="editor_validation_error">Check required fields: server host, valid port (1–65535), and credentials.</string>
+
+    <!-- Clipboard / Import -->
+    <string name="import_dialog_title">Smart Import</string>
+    <string name="import_clipboard_empty">Clipboard is empty.</string>
+    <string name="import_success_single">Imported %1$s (%2$s)</string>
+    <string name="import_success_batch">Imported %1$d profiles</string>
+    <string name="import_failed_prefix">Import failed: %1$s</string>
+    <string name="import_hint">Supports single or multiple vless://, vmess://, ss://, ssh://, socks5:// links or JSON files.</string>
+    <string name="import_raw_label">Paste links or JSON</string>
+    <string name="import_action">Import</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_sec_general">General</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">Automatic (System)</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_accent_color">Accent color</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_lang_system">System</string>
+    <string name="settings_lang_pt">Português</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_animations">UI animations</string>
+
+    <string name="settings_sec_connection">Connection</string>
+    <string name="settings_auto_reconnect">Auto-reconnect</string>
+    <string name="settings_timeout">Connection timeout</string>
+    <string name="settings_custom_dns">Custom DNS server</string>
+    <string name="settings_ipv4">Enable IPv4 routing</string>
+    <string name="settings_ipv6">Enable IPv6 routing</string>
+    <string name="settings_kill_switch">Block bypass (Kill Switch)</string>
+    <string name="settings_kill_switch_desc">Disables VPN bypass for non-excluded apps. Pair with Android System Always-on VPN for strict OS lock.</string>
+    <string name="settings_keep_alive">Keep service alive in background</string>
+    <string name="settings_start_on_boot">Start on device boot</string>
+
+    <string name="settings_sec_adblock">AdBlocker &amp; DNS Filter</string>
+    <string name="settings_adblock_toggle">Local DNS AdBlocker</string>
+    <string name="settings_adblock_desc">Filters ads, trackers, and malware via local DNS inspection inside the G-VPN tunnel.</string>
+    <string name="settings_adblock_ads">Block advertising domains</string>
+    <string name="settings_adblock_trackers">Block analytics &amp; trackers</string>
+    <string name="settings_adblock_malware">Block known malicious domains</string>
+    <string name="settings_adblock_selected_only">Apply AdBlocker to selected apps only</string>
+    <string name="settings_adblock_update">Update blocklists</string>
+    <string name="settings_adblock_blocked_stat">Blocked DNS queries</string>
+    <string name="settings_adblock_rules_stat">Active rules</string>
+
+    <string name="settings_sec_apps">Apps filter</string>
+    <string name="settings_apps_filter_mode">Filter mode</string>
+    <string name="settings_apps_all">All apps use VPN</string>
+    <string name="settings_apps_blacklist">Blacklist (exclude selected)</string>
+    <string name="settings_apps_whitelist">Whitelist (selected apps only)</string>
+    <string name="settings_apps_select">Select applications</string>
+
+    <string name="settings_sec_vpn_stats">VPN Tunnel Telemetry</string>
+    <string name="settings_stat_sent">Bytes sent</string>
+    <string name="settings_stat_received">Bytes received</string>
+    <string name="settings_stat_speed">Current speed</string>
+    <string name="settings_stat_uptime">Connected time</string>
+    <string name="settings_stat_tunnel">Tunnel state</string>
+
+    <string name="settings_sec_privacy">Privacy &amp; Security</string>
+    <string name="settings_wipe_all">Delete all profiles &amp; credentials</string>
+    <string name="settings_wipe_confirm">This removes all saved servers, encrypted passwords/keys, and custom domain rules. Continue?</string>
+    <string name="settings_about">About G-VPN</string>
+    <string name="settings_about_desc">G-VPN v1.0.0 — Built by DEV GYLITO. Local Keystore encryption, zero telemetry.</string>
+
+    <!-- Test / Diagnostics -->
+    <string name="test_title">Diagnostics</string>
+    <string name="test_run_all">Run diagnostics</string>
+    <string name="test_running">Testing…</string>
+    <string name="test_tcp">Server reachability (TCP)</string>
+    <string name="test_handshake">Protocol &amp; auth handshake</string>
+    <string name="test_dns">DNS &amp; AdBlock check</string>
+    <string name="test_tunnel">TUN interface status</string>
+    <string name="test_latency">Measured latency</string>
+    <string name="test_no_profile">Select a profile first to run server diagnostics.</string>
+
+    <!-- Lists -->
+    <string name="lists_title">Lists &amp; Vault</string>
+    <string name="lists_tab_profiles">Profiles</string>
+    <string name="lists_tab_favorites">Favorites</string>
+    <string name="lists_tab_blocklist">Blocklist</string>
+    <string name="lists_tab_allowlist">Allowlist</string>
+    <string name="lists_add_domain">Add domain</string>
+    <string name="lists_domain_hint">e.g. ads.example.com</string>
+    <string name="lists_empty_profiles">No VPN profiles yet. Tap + or Paste / Import to add one.</string>
+    <string name="lists_empty_favorites">Star any profile to pin it here for quick access.</string>
+    <string name="lists_empty_domains">No custom domains in this list yet.</string>
+</resources>

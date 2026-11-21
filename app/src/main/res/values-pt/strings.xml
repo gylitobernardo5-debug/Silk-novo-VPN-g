@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">G-VPN</string>
+    <string name="dev_signature">DEV GYLITO</string>
+
+    <!-- Navegação inferior e ações principais -->
+    <string name="nav_home">VPN</string>
+    <string name="nav_editor">Editor</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_test">Test</string>
+    <string name="nav_lists">Lists</string>
+
+    <!-- Estados da VPN -->
+    <string name="state_disconnected">Desconectada</string>
+    <string name="state_connecting">Conectando…</string>
+    <string name="state_connected">Conectada</string>
+    <string name="state_error">Erro</string>
+
+    <!-- Tela principal -->
+    <string name="home_tap_to_connect">Toque para conectar</string>
+    <string name="home_tap_to_disconnect">Toque para desconectar</string>
+    <string name="home_no_profile_selected">Nenhum perfil selecionado</string>
+    <string name="home_select_or_create_profile">Selecione ou crie um perfil no Editor ou em Lists</string>
+    <string name="home_active_profile">Perfil ativo</string>
+    <string name="home_server_address">Servidor</string>
+    <string name="home_protocol">Protocolo</string>
+    <string name="home_duration">Tempo conectado</string>
+    <string name="home_adblock_badge">AdBlock ON</string>
+    <string name="home_adblock_off_badge">AdBlock OFF</string>
+    <string name="home_paste_import">Colar / Importar</string>
+    <string name="home_change_profile">Trocar</string>
+    <string name="vpn_permission_denied">É necessária permissão VPN do Android para iniciar o túnel.</string>
+    <string name="vpn_external_conflict">Outra VPN está ativa no dispositivo. Desative-a antes de iniciar a G-VPN ou o bloqueador de DNS local.</string>
+
+    <!-- Notificação -->
+    <string name="notif_channel_name">Túnel G-VPN</string>
+    <string name="notif_channel_desc">Mostra o estado da conexão VPN e tráfego em tempo real</string>
+    <string name="notif_connected_title">G-VPN Conectada</string>
+    <string name="notif_connecting_title">G-VPN Conectando…</string>
+    <string name="notif_disconnect_action">Desconectar</string>
+
+    <!-- Editor -->
+    <string name="editor_title">Editor de Perfis</string>
+    <string name="editor_new_profile">Novo perfil</string>
+    <string name="editor_edit_profile">Editar perfil</string>
+    <string name="editor_paste_link">Colar link</string>
+    <string name="editor_import_file">Importar ficheiro</string>
+    <string name="editor_save">Guardar</string>
+    <string name="editor_save_and_connect">Guardar e Conectar</string>
+    <string name="editor_test_profile">Testar</string>
+    <string name="editor_duplicate">Duplicar</string>
+    <string name="editor_delete">Eliminar</string>
+    <string name="editor_export">Exportar</string>
+    <string name="editor_select_active">Selecionar ativo</string>
+    <string name="editor_profile_name">Nome do perfil</string>
+    <string name="editor_server_host">IP ou hostname do servidor</string>
+    <string name="editor_port">Porta</string>
+    <string name="editor_username">Utilizador</string>
+    <string name="editor_password">Password</string>
+    <string name="editor_uuid">UUID</string>
+    <string name="editor_ssh_auth_method">Método de autenticação</string>
+    <string name="editor_ssh_key">Chave privada SSH (PEM / OpenSSH)</string>
+    <string name="editor_ssh_passphrase">Passphrase da chave (opcional)</string>
+    <string name="editor_upstream_proxy">Proxy upstream (opcional)</string>
+    <string name="editor_proxy_type">Tipo de proxy</string>
+    <string name="editor_proxy_host">Host do proxy</string>
+    <string name="editor_proxy_port">Porta do proxy</string>
+    <string name="editor_tls_enabled">Ativar TLS</string>
+    <string name="editor_sni">Server Name (SNI)</string>
+    <string name="editor_allow_insecure">Permitir certificados inseguros</string>
+    <string name="editor_transport">Transporte</string>
+    <string name="editor_ws_path">Caminho WebSocket / HTTP</string>
+    <string name="editor_ws_host">Header Host do WebSocket</string>
+    <string name="editor_alpn">ALPN (ex: h2,http/1.1)</string>
+    <string name="editor_ss_method">Método de criptografia</string>
+    <string name="editor_vmess_cipher">Segurança VMess</string>
+    <string name="editor_vmess_alter_id">Alter ID</string>
+    <string name="editor_socks_udp">Ativar relay UDP</string>
+    <string name="editor_notes">Notas</string>
+    <string name="editor_auto_saved">Alterações guardadas localmente</string>
+    <string name="editor_validation_error">Verifique os campos obrigatórios: servidor, porta (1–65535) e credenciais.</string>
+
+    <!-- Clipboard / Importação -->
+    <string name="import_dialog_title">Importação Inteligente</string>
+    <string name="import_clipboard_empty">A área de transferência está vazia.</string>
+    <string name="import_success_single">Importado %1$s (%2$s)</string>
+    <string name="import_success_batch">Importados %1$d perfis</string>
+    <string name="import_failed_prefix">Erro ao importar: %1$s</string>
+    <string name="import_hint">Suporta um ou vários links vless://, vmess://, ss://, ssh://, socks5:// ou ficheiros JSON.</string>
+    <string name="import_raw_label">Colar links ou JSON</string>
+    <string name="import_action">Importar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="close">Fechar</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Definições</string>
+    <string name="settings_sec_general">General</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_system">Automático (Sistema)</string>
+    <string name="settings_theme_light">Claro</string>
+    <string name="settings_theme_dark">Escuro</string>
+    <string name="settings_accent_color">Cor de destaque</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_lang_system">Sistema</string>
+    <string name="settings_lang_pt">Português</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_animations">Animações da interface</string>
+
+    <string name="settings_sec_connection">Connection</string>
+    <string name="settings_auto_reconnect">Reconexão automática</string>
+    <string name="settings_timeout">Timeout de conexão</string>
+    <string name="settings_custom_dns">DNS personalizado</string>
+    <string name="settings_ipv4">Ativar rotas IPv4</string>
+    <string name="settings_ipv6">Ativar rotas IPv6</string>
+    <string name="settings_kill_switch">Kill Switch (bloquear bypass)</string>
+    <string name="settings_kill_switch_desc">Impede bypass da VPN às apps não excluídas. Para bloqueio total, ative também VPN Sempre Ativa nas definições Android.</string>
+    <string name="settings_keep_alive">Manter conexão em segundo plano</string>
+    <string name="settings_start_on_boot">Iniciar serviço ao ligar dispositivo</string>
+
+    <string name="settings_sec_adblock">Bloqueador de Anúncios</string>
+    <string name="settings_adblock_toggle">Bloqueador DNS local</string>
+    <string name="settings_adblock_desc">Filtra anúncios, trackers e domínios maliciosos por inspeção DNS local no túnel G-VPN.</string>
+    <string name="settings_adblock_ads">Bloquear domínios publicitários</string>
+    <string name="settings_adblock_trackers">Bloquear trackers e telemetria</string>
+    <string name="settings_adblock_malware">Bloquear domínios maliciosos</string>
+    <string name="settings_adblock_selected_only">Aplicar filtragem apenas às apps selecionadas</string>
+    <string name="settings_adblock_update">Atualizar listas</string>
+    <string name="settings_adblock_blocked_stat">Consultas bloqueadas</string>
+    <string name="settings_adblock_rules_stat">Regras ativas</string>
+
+    <string name="settings_sec_apps">Apps filter</string>
+    <string name="settings_apps_filter_mode">Modo de filtragem</string>
+    <string name="settings_apps_all">Todas as apps passam pela VPN</string>
+    <string name="settings_apps_blacklist">Blacklist (excluir selecionadas)</string>
+    <string name="settings_apps_whitelist">Whitelist (apenas selecionadas)</string>
+    <string name="settings_apps_select">Selecionar aplicações</string>
+
+    <string name="settings_sec_vpn_stats">VPN</string>
+    <string name="settings_stat_sent">Bytes enviados</string>
+    <string name="settings_stat_received">Bytes recebidos</string>
+    <string name="settings_stat_speed">Velocidade atual</string>
+    <string name="settings_stat_uptime">Tempo conectado</string>
+    <string name="settings_stat_tunnel">Estado do túnel</string>
+
+    <string name="settings_sec_privacy">Privacidade e Segurança</string>
+    <string name="settings_wipe_all">Apagar todos os perfis e credenciais</string>
+    <string name="settings_wipe_confirm">Isto apaga todos os servidores guardados, passwords/chaves encriptadas e listas personalizadas. Continuar?</string>
+    <string name="settings_about">Sobre a G-VPN</string>
+    <string name="settings_about_desc">G-VPN v1.0.0 — Desenvolvido por DEV GYLITO. Encriptação Keystore local, sem telemetria.</string>
+
+    <!-- Test / Diagnósticos -->
+    <string name="test_title">Diagnóstico</string>
+    <string name="test_run_all">Executar diagnóstico</string>
+    <string name="test_running">A testar…</string>
+    <string name="test_tcp">Conectividade ao servidor (TCP)</string>
+    <string name="test_handshake">Handshake e autenticação</string>
+    <string name="test_dns">Verificação DNS e AdBlock</string>
+    <string name="test_tunnel">Estado do túnel</string>
+    <string name="test_latency">Latência medida</string>
+    <string name="test_no_profile">Selecione um perfil para executar o diagnóstico ao servidor.</string>
+
+    <!-- Lists -->
+    <string name="lists_title">Listas e Perfis</string>
+    <string name="lists_tab_profiles">Perfis</string>
+    <string name="lists_tab_favorites">Favoritos</string>
+    <string name="lists_tab_blocklist">Bloqueio</string>
+    <string name="lists_tab_allowlist">Permissões</string>
+    <string name="lists_add_domain">Adicionar domínio</string>
+    <string name="lists_domain_hint">ex: ads.exemplo.com</string>
+    <string name="lists_empty_profiles">Sem perfis VPN. Toque em + ou Colar / Importar.</string>
+    <string name="lists_empty_favorites">Marque um perfil com estrela para acesso rápido.</string>
+    <string name="lists_empty_domains">Sem domínios personalizados nesta lista.</string>
+</resources>
